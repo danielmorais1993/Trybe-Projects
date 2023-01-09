@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Tryunfo/static/css/main.0ec7cba0.css",
+    "main.js": "/Tryunfo/static/js/main.54ee234d.js",
+    "static/media/logo_tryunfo.png": "/Tryunfo/static/media/logo_tryunfo.44a23133148884206e60.png",
+    "index.html": "/Tryunfo/index.html",
+    "main.0ec7cba0.css.map": "/Tryunfo/static/css/main.0ec7cba0.css.map",
+    "main.54ee234d.js.map": "/Tryunfo/static/js/main.54ee234d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ec7cba0.css",
+    "static/js/main.54ee234d.js"
+  ]
+}
