@@ -1,0 +1,147 @@
+body {
+  background-image: url('/Users/danielmorais/Documents/Trybe/Projetos/Projeto08/sd-026-b-project-solar-system/src/images/background.png');
+  color: white;
+  text-align: center;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.planet-link {
+  border: 1px solid white;
+  left: 0;
+  position: absolute;
+  top: 490px;
+  width: 2000px;
+
+}
+
+.mission-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+
+}
+
+.mission {
+  border: 1px solid white;
+  border-radius: 1em;
+  margin: 5px;
+  z-index: 1;
+
+
+}
+
+.mission-name {
+  font-size: 30px;
+  text-align: left;
+  z-index: 1;
+}
+
+.card-division {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.ellipse {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: aliceblue;
+  display: flex;
+  height: 307.45px;
+  justify-content: center;
+  transform: matrix(0.58, 0.78, -0.87, 0.56, 0, 0);
+  width: 120.07px;
+}
+
+.heading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.solar-name {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transform: rotate(-54deg);
+
+}
+
+.Mercúrio {
+  height: 31px;
+  width: 41px;
+}
+
+.Vênus {
+  height: 76px;
+  width: 102px;
+
+}
+
+.Terra {
+  height: 79px;
+  width: 106px;
+
+}
+
+.Marte {
+  height: 50px;
+  width: 66px;
+
+}
+
+.Júpiter {
+  height: 204px;
+  width: 272px;
+
+}
+
+.Saturno {
+  height: 210.9px;
+  transform: rotate(-16.53deg);
+  width: 282.41px;
+}
+
+.Urano {
+  height: 109px;
+  width: 144px;
+}
+
+.Netuno {
+  height: 107px;
+  width: 144px;
+}
+
+.mission-container {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 1000px;
+  z-index: -1;
+
+}
+
+.mission-position {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
