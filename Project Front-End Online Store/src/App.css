@@ -1,0 +1,86 @@
+.none-msg {
+  margin-left: 60%;
+}
+
+.sp-cart {
+  background-color: rgba(255, 0, 0, 0.907);
+  border: 1px solid red;
+  border-radius: 50%;
+  height: 22px;
+  margin-top: 70px;
+}
+
+.cd-un {
+  margin: 4px;
+}
+
+.front-logo {
+  height: 69.63px;
+  width: 267.27px;
+}
+
+.search {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.search svg {
+  cursor: pointer;
+  height: 6rem;
+  padding: 1.5rem;
+  position: absolute;
+
+}
+
+.icon {
+  fill: gray;
+  z-index: 99;
+
+}
+
+.close {
+  fill: white;
+  right: 0;
+  transition: 500ms fill ease-in;
+}
+
+.delete {
+  display: none;
+  fill: gray;
+  right: 5rem;
+
+
+}
+
+.search-input {
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 10px gray;
+  color: gray;
+  font-family: inherit;
+  font-size: 2rem;
+  height: 5rem;
+  outline: none;
+  padding: 1.75rem 3rem;
+  transition: 200ms width ease-in-out , 500ms border-radius ease-in-out;
+  width: 2rem;
+
+}
+
+.open input {
+  border-radius: 1rem;
+  padding: 1.5rem 11rem 1.5rem  6rem;
+  width: 34rem;
+
+}
+
+.open .close {
+  fill: gray;
+}
+
+.open .delete {
+  display: block;
+}
+
